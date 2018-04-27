@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD25DA391EE8E941004F4FC4 /* WaterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DA381EE8E941004F4FC4 /* WaterTableViewCell.swift */; };
+		AD25DA3B1EE8F856004F4FC4 /* WaterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DA3A1EE8F856004F4FC4 /* WaterTableViewController.swift */; };
+		AD25DA3D1EE8FB36004F4FC4 /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DA3C1EE8FB36004F4FC4 /* Water.swift */; };
 		AD5E0DC51ED7719E00CF5DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E0DC41ED7719E00CF5DDE /* AppDelegate.swift */; };
 		AD5E0DC71ED7719E00CF5DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E0DC61ED7719E00CF5DDE /* ViewController.swift */; };
 		AD5E0DCA1ED7719E00CF5DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5E0DC81ED7719E00CF5DDE /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD25DA381EE8E941004F4FC4 /* WaterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterTableViewCell.swift; sourceTree = "<group>"; };
+		AD25DA3A1EE8F856004F4FC4 /* WaterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterTableViewController.swift; sourceTree = "<group>"; };
+		AD25DA3C1EE8FB36004F4FC4 /* Water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
 		AD5E0DC11ED7719E00CF5DDE /* WaterTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5E0DC41ED7719E00CF5DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5E0DC61ED7719E00CF5DDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 			children = (
 				AD5E0DC41ED7719E00CF5DDE /* AppDelegate.swift */,
 				AD5E0DC61ED7719E00CF5DDE /* ViewController.swift */,
+				AD25DA3A1EE8F856004F4FC4 /* WaterTableViewController.swift */,
+				AD25DA381EE8E941004F4FC4 /* WaterTableViewCell.swift */,
+				AD25DA3C1EE8FB36004F4FC4 /* Water.swift */,
 				AD5E0DC81ED7719E00CF5DDE /* Main.storyboard */,
 				AD5E0DCB1ED7719E00CF5DDE /* Assets.xcassets */,
 				AD5E0DCD1ED7719E00CF5DDE /* LaunchScreen.storyboard */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD25DA391EE8E941004F4FC4 /* WaterTableViewCell.swift in Sources */,
 				AD5E0DC71ED7719E00CF5DDE /* ViewController.swift in Sources */,
 				AD5E0DC51ED7719E00CF5DDE /* AppDelegate.swift in Sources */,
+				AD25DA3D1EE8FB36004F4FC4 /* Water.swift in Sources */,
+				AD25DA3B1EE8F856004F4FC4 /* WaterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +316,7 @@
 				AD5E0DD51ED7719E00CF5DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
